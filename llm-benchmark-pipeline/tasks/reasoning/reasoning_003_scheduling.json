@@ -1,0 +1,7 @@
+{
+  "id": "reasoning_003",
+  "category": "reasoning",
+  "prompt": "Four coworkers (Priya, Jo, Sam, and Wei) need to each give a 15-minute presentation back-to-back in a single 1-hour meeting starting at 2:00 PM, with no gaps or breaks between talks. Priya must present before Jo. Wei must present last. Sam must present first. List one valid ordering with start times for each presenter.",
+  "reference_answer": "Sam 2:00-2:15, Priya 2:15-2:30, Jo 2:30-2:45, Wei 2:45-3:00.",
+  "rubric": "Award full credit for any ordering where Sam is first, Wei is last, Priya comes before Jo, and the four 15-minute slots correctly tile 2:00-3:00 PM with no gaps (the only valid ordering is Sam, Priya, Jo, Wei). Partial credit if the ordering/constraints are right but times are miscalculated. No credit if any constraint (Sam first, Wei last, Priya before Jo) is violated."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "coding_003",
+  "category": "coding",
+  "prompt": "Write a Python function `two_sum(nums, target)` that returns a tuple of the two 0-indexed positions of the numbers in the list `nums` that add up to `target`, in ascending order. Assume exactly one solution exists and you cannot use the same element twice. Return only the Python code in a single fenced code block, no explanation.",
+  "test_cases": [
+    {"call": "two_sum([2, 7, 11, 15], 9)", "expected": "(0, 1)"},
+    {"call": "two_sum([3, 2, 4], 6)", "expected": "(1, 2)"},
+    {"call": "two_sum([3, 3], 6)", "expected": "(0, 1)"}
+  ]
+}

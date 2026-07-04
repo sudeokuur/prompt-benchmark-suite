@@ -1,0 +1,7 @@
+{
+  "id": "reasoning_002",
+  "category": "reasoning",
+  "prompt": "A bag contains 4 red balls and 6 blue balls. You draw two balls without replacement. What is the probability that both balls are red? Give the answer as a simplified fraction and show your work.",
+  "reference_answer": "2/15",
+  "rubric": "Award full credit if the final probability is 2/15 (or an equivalent form like 0.1333... or 13.3%) with correct reasoning (4/10 * 3/9 = 12/90 = 2/15). Partial credit for correct method but arithmetic slip. No credit for a fundamentally wrong approach (e.g., treating draws as independent with replacement)."
+}

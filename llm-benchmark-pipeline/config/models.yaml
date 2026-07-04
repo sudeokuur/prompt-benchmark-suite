@@ -1,0 +1,34 @@
+# Models to benchmark. Add/remove entries as needed.
+# `model` should be the exact model identifier the provider's API expects.
+models:
+  - provider: openai
+    model: gpt-5.1
+    display_name: "GPT-5.1"
+    temperature: 0.2
+    max_tokens: 2048
+
+  - provider: anthropic
+    model: claude-sonnet-5
+    display_name: "Claude Sonnet 5"
+    temperature: 0.2
+    max_tokens: 2048
+
+  - provider: google
+    model: gemini-2.5-pro
+    display_name: "Gemini 2.5 Pro"
+    temperature: 0.2
+    max_tokens: 2048
+
+# Model used for LLM-as-judge scoring (reasoning, analytical, summarization).
+judge:
+  provider: anthropic
+  model: claude-opus-4-6
+  temperature: 0.0
+  max_tokens: 1024
+
+# Weight of each category in the final aggregate score (must sum to 1.0).
+category_weights:
+  coding: 0.30
+  reasoning: 0.25
+  summarization: 0.20
+  analytical: 0.25

@@ -1,0 +1,11 @@
+{
+  "id": "coding_002",
+  "category": "coding",
+  "prompt": "Write a Python function `fibonacci(n)` that returns the nth Fibonacci number (0-indexed, fibonacci(0) == 0, fibonacci(1) == 1). It must work for n up to at least 30 and should not use naive exponential recursion (use iteration or memoization). Return only the Python code in a single fenced code block, no explanation.",
+  "test_cases": [
+    {"call": "fibonacci(0)", "expected": "0"},
+    {"call": "fibonacci(1)", "expected": "1"},
+    {"call": "fibonacci(10)", "expected": "55"},
+    {"call": "fibonacci(20)", "expected": "6765"}
+  ]
+}

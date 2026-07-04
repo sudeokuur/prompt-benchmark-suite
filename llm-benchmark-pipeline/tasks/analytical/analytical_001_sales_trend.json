@@ -1,0 +1,7 @@
+{
+  "id": "analytical_001",
+  "category": "analytical",
+  "prompt": "A company's quarterly revenue for the last 6 quarters was: Q1: $2.1M, Q2: $2.4M, Q3: $2.2M, Q4: $3.1M (holiday quarter), Q5: $2.3M, Q6: $2.6M. Identify the underlying growth trend (excluding the holiday spike), estimate the approximate quarter-over-quarter growth rate for the non-holiday quarters, and state one risk with relying only on quarter-over-quarter comparisons for this business.",
+  "reference_answer": "Excluding the Q4 holiday spike, the trend across Q1, Q2, Q3, Q5, Q6 ($2.1M, $2.4M, $2.2M, $2.3M, $2.6M) shows modest overall growth of roughly 3-5% per quarter on average, with some quarter-to-quarter noise rather than smooth growth. A key risk is that quarter-over-quarter comparisons can be distorted by seasonality (like the Q4 spike) and should be supplemented with year-over-year comparisons of the same quarter to avoid misreading seasonal effects as trend changes.",
+  "rubric": "Full credit requires: (1) correctly identifying Q4 as a seasonal/holiday outlier that should be excluded from the trend, (2) a reasonable estimate of modest single-digit percent growth per quarter (roughly 2-6%) rather than claiming rapid or negative growth, and (3) identifying seasonality/comparing non-comparable periods as a risk of naive QoQ analysis. Partial credit if the trend direction is right but the growth rate estimate is off, or if a different but still valid analytical risk is raised (e.g., small sample size). No credit if Q4 is treated as representative of the trend."
+}

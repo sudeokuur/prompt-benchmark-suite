@@ -1,0 +1,7 @@
+{
+  "id": "summarization_003",
+  "category": "summarization",
+  "prompt": "The following are excerpts from five customer reviews of a wireless headphone product. Write a 2-3 sentence summary of the overall customer sentiment, calling out the most common praise and the most common complaint.",
+  "source_text": "Review 1: 'Sound quality is amazing for the price, bass is punchy without being muddy. Battery life easily gets me through a full work week.' Review 2: 'Great sound, but the ear cups started peeling after about two months of daily use. Disappointing given how much I liked the audio.' Review 3: 'Comfortable for long sessions and the noise cancellation is solid on flights. My only gripe is the touch controls are overly sensitive and I accidentally pause music all the time.' Review 4: 'Bought these after my last pair's ear cushions fell apart within a year - hoping these hold up better because the sound itself is fantastic.' Review 5: 'Best budget headphones I've tried. The only downside is the cushion material seems to degrade faster than I'd like.'",
+  "rubric": "A good summary should note that sound quality/audio performance is the most consistently praised aspect, and that ear cushion/cup durability (peeling, degrading material) is the most common complaint, mentioned across multiple reviews. Minor complaints like touch control sensitivity can be omitted since they're not the most common. Penalize for missing the durability complaint entirely, misidentifying the top complaint, or exceeding 3 sentences."
+}

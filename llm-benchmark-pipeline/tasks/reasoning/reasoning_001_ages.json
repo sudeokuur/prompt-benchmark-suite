@@ -1,0 +1,7 @@
+{
+  "id": "reasoning_001",
+  "category": "reasoning",
+  "prompt": "Three friends, Amara, Ben, and Cleo, have ages that are three consecutive integers. The sum of their ages is 45. Cleo is the oldest. What is each person's age? Show your reasoning briefly, then give the final answer clearly.",
+  "reference_answer": "Amara is 14, Ben is 15, Cleo is 16.",
+  "rubric": "Award full credit if the final answer states the three ages as 14, 15, and 16 with Cleo as the oldest (16). Partial credit if the arithmetic/reasoning is sound but the final answer is mislabeled or miscalculated. No credit if the ages don't sum to 45 or aren't consecutive integers."
+}

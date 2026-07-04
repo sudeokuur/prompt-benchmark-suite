@@ -1,0 +1,11 @@
+{
+  "id": "coding_001",
+  "category": "coding",
+  "prompt": "Write a Python function `is_palindrome(s)` that returns True if the string s reads the same forwards and backwards, ignoring case, spaces, and punctuation. Return only the Python code in a single fenced code block, no explanation.",
+  "test_cases": [
+    {"call": "is_palindrome('Race car')", "expected": "True"},
+    {"call": "is_palindrome('hello')", "expected": "False"},
+    {"call": "is_palindrome('A man, a plan, a canal: Panama')", "expected": "True"},
+    {"call": "is_palindrome('')", "expected": "True"}
+  ]
+}

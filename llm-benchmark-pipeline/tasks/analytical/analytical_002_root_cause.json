@@ -1,0 +1,7 @@
+{
+  "id": "analytical_002",
+  "category": "analytical",
+  "prompt": "A SaaS company's customer support ticket volume doubled last month, but the number of active users only grew by 5%. Average time-to-resolution also increased from 4 hours to 11 hours. List three plausible root causes for this pattern, and identify which single piece of additional data would be most useful to investigate first.",
+  "reference_answer": "Plausible root causes include: a recent product change or bug introducing new issues (e.g., a buggy release), a change in how tickets are logged or categorized inflating the count, or a support-side issue like reduced staffing/slower first-response causing tickets to reopen or duplicate. The most useful single piece of data to investigate first is typically the ticket volume broken down by category/issue type and by date, especially around any recent deploys, to see whether the spike is concentrated in a specific feature or time window (pointing to a bug) versus spread evenly (pointing to a process or staffing issue).",
+  "rubric": "Full credit requires three distinct, plausible root causes (e.g., a bug/regression, a logging/categorization change, a staffing or process issue) and a sensible prioritized next data point, most naturally 'break down tickets by category/feature and by date/deploy time.' Partial credit for fewer than three causes or a next-data-point suggestion that is reasonable but less diagnostic (e.g., 'survey customers'). No credit if causes are implausible or if no clear next investigative step is given."
+}

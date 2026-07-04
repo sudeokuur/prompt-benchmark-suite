@@ -1,0 +1,7 @@
+{
+  "id": "summarization_002",
+  "category": "summarization",
+  "prompt": "Summarize the following meeting notes into a short set of action items with owners, in 5 lines or fewer.",
+  "source_text": "Attendees: Maria (product), Devon (eng lead), Yuki (design), Carlos (marketing). Maria opened by noting that the Q3 launch date is at risk because the payments integration is still failing sandbox tests. Devon said his team will need until next Friday to fix the webhook retry logic and asked Yuki to finalize the checkout error-state designs by Wednesday so engineering isn't blocked. Yuki agreed and said she'd also share updated onboarding screens for feedback by end of week, though those aren't blocking. Carlos raised that marketing collateral assumes the original launch date and asked for a go/no-go decision by next Monday so they can adjust the campaign timeline if needed. The group agreed Maria will send a written go/no-go decision to the whole team by Monday morning based on Devon's Friday update.",
+  "rubric": "A good summary should capture, in 5 lines or fewer: Devon fixes webhook retry logic by Friday, Yuki delivers checkout error-state designs by Wednesday, Maria sends a go/no-go decision by Monday (based on Devon's update), and that the Q3 launch date is at risk. It's acceptable to omit the non-blocking onboarding screens detail. Penalize for missing an owner or a due date on any of the three core action items, for adding action items not present in the notes, or for exceeding 5 lines."
+}
